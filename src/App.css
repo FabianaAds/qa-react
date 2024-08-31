@@ -7,9 +7,9 @@
 
 /* Estilo geral do corpo */
 body {
-  background: linear-gradient(to right, #f58529, #dd2a7b, #8134af, #515bd4); /* Gradiente vibrante inspirado no Instagram */
+  background: linear-gradient(to right, #f0f4c3, #c8e6c9, #b3e5fc, #ffcdd2); /* Gradiente suave e moderno */
   font-family: 'Roboto', sans-serif; /* Fonte moderna */
-  color: #ffffff; /* Texto branco para contraste */
+  color: #333333; /* Texto cinza escuro para bom contraste */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -17,9 +17,9 @@ body {
 
 /* Estilo para o cabeçalho de navegação */
 nav {
-  background-color: #333; /* Fundo escuro para contraste */
+  background-color: #f5f5f5; /* Fundo claro */
   padding: 1em 2em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 nav ul {
@@ -30,14 +30,14 @@ nav ul {
 }
 
 nav ul li a {
-  color: #ffffff; /* Cor branca */
+  color: #00796b; /* Verde suave */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.3s ease; /* Transição suave */
 }
 
 nav ul li a:hover {
-  color: #f58529; /* Laranja vibrante ao passar o mouse */
+  color: #004d40; /* Verde mais escuro ao passar o mouse */
   transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
 
@@ -57,7 +57,7 @@ section {
 
 /* Estilo para os títulos */
 h1, h2 {
-  color: #ffffff; /* Texto branco */
+  color: #333333; /* Texto cinza escuro */
   font-family: 'Montserrat', sans-serif; /* Fonte moderna para títulos */
   margin-bottom: 0.5em; /* Reduz a margem inferior para uma aparência mais limpa */
   position: relative; /* Para adicionar efeitos decorativos */
@@ -67,7 +67,7 @@ h1, h2 {
 h1 {
   font-size: 2.5em; /* Tamanho grande para o título principal */
   font-weight: 700; /* Negrito para maior destaque */
-  border-bottom: 2px solid #f58529; /* Linha laranja abaixo do título */
+  border-bottom: 2px solid #00796b; /* Linha verde suave abaixo do título */
   padding-bottom: 0.2em; /* Espaçamento interno para a linha */
 }
 
@@ -83,7 +83,7 @@ h1::after, h2::after {
   display: block;
   width: 50px; /* Largura da linha */
   height: 3px; /* Altura da linha */
-  background-color: #f58529; /* Linha laranja */
+  background-color: #00796b; /* Linha verde suave */
   position: absolute;
   bottom: -0.5em; /* Posiciona a linha um pouco abaixo do título */
   left: 0; /* Alinha a linha à esquerda do título */
@@ -96,7 +96,7 @@ h1:hover::after, h2:hover::after {
 
 /* Estilo para os parágrafos */
 p {
-  color: #ffffff; /* Texto branco */
+  color: #333333; /* Texto cinza escuro */
   line-height: 1.8; /* Aumenta o espaçamento entre linhas para facilitar a leitura */
   margin-bottom: 1.5em; /* Espaçamento abaixo dos parágrafos */
   transition: transform 0.3s ease, background-color 0.3s ease; /* Transição suave */
@@ -104,36 +104,36 @@ p {
 
 /* Parágrafos com destaque */
 p.highlight {
-  background-color: #f58529; /* Fundo laranja */
+  background-color: #b2dfdb; /* Fundo verde claro */
   padding: 0.5em;
   border-radius: 8px; /* Bordas arredondadas */
   font-weight: bold;
-  color: #ffffff; /* Texto branco para contraste */
+  color: #004d40; /* Texto verde escuro para contraste */
 }
 
 /* Efeito hover em parágrafos */
 p:hover {
   transform: scale(1.02); /* Leve aumento no tamanho ao passar o mouse */
-  background-color: #dd2a7b; /* Fundo rosa escuro ao passar o mouse */
+  background-color: #80cbc4; /* Fundo verde médio ao passar o mouse */
 }
 
 /* Adicionando um rodapé */
 footer {
-  background-color: #333; /* Fundo escuro para contraste */
-  color: #ffffff; /* Texto branco */
+  background-color: #f5f5f5; /* Fundo claro */
+  color: #333333; /* Texto cinza escuro */
   text-align: center;
   padding: 1em 2em;
-  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada no topo */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve no topo */
   font-size: 0.9em;
 }
 
 /* Estilo de links no rodapé */
 footer a {
-  color: #f58529; /* Cor laranja */
+  color: #00796b; /* Cor verde suave */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #ffffff; /* Branco ao passar o mouse */
+  color: #004d40; /* Verde mais escuro ao passar o mouse */
 }
